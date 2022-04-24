@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Client"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Client\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\boost\;CMake Files\..\..\..\..\boost\lib\;CMake Files\..\..\..\..\boost\lib\cmake\;CMake Files\..\..\..\..\boost\lib\cmake\Boost-1.79.0\;CMake Files\..\..\..\..\boost\lib\cmake\boost_headers-1.79.0\;CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\;CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\;CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\;CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\;CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\;CMake Files\Server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Client">
+				<Option output="C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
+					<Add option="-DBOOST_CHRONO_NO_LIB"/>
+					<Add directory="C:/boost/include/boost-1_79"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 Client"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Client/fast">
+				<Option output="C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
+					<Add option="-DBOOST_CHRONO_NO_LIB"/>
+					<Add directory="C:/boost/include/boost-1_79"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 Client/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/Client/main.cpp">
+			<Option target="Client"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/Client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Client\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/BoostDetectToolset-1.79.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/Boost-1.79.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\Boost-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/Boost-1.79.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\Boost-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_headers-1.79.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_headers-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_headers-1.79.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_headers-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-mgw8-mt-d-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-mgw8-mt-d-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-mgw8-mt-s-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-mgw8-mt-sd-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-mgw8-mt-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_thread-1.79.0/libboost_thread-variant-mgw8-mt-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_thread-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/boost_chrono-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/boost_chrono-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/libboost_chrono-variant-mgw8-mt-d-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/libboost_chrono-variant-mgw8-mt-d-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/libboost_chrono-variant-mgw8-mt-s-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/libboost_chrono-variant-mgw8-mt-sd-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/libboost_chrono-variant-mgw8-mt-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_chrono-1.79.0/libboost_chrono-variant-mgw8-mt-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_chrono-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/libboost_filesystem-variant-mgw8-mt-d-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/libboost_filesystem-variant-mgw8-mt-d-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/libboost_filesystem-variant-mgw8-mt-s-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/libboost_filesystem-variant-mgw8-mt-sd-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/libboost_filesystem-variant-mgw8-mt-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_filesystem-1.79.0/libboost_filesystem-variant-mgw8-mt-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_filesystem-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/libboost_atomic-variant-mgw8-mt-d-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/libboost_atomic-variant-mgw8-mt-d-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/libboost_atomic-variant-mgw8-mt-s-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/libboost_atomic-variant-mgw8-mt-sd-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/libboost_atomic-variant-mgw8-mt-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_atomic-1.79.0/libboost_atomic-variant-mgw8-mt-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_atomic-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/libboost_system-variant-mgw8-mt-d-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/libboost_system-variant-mgw8-mt-d-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/libboost_system-variant-mgw8-mt-s-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/libboost_system-variant-mgw8-mt-sd-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/libboost_system-variant-mgw8-mt-x32-1_79-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/../../../../boost/lib/cmake/boost_system-1.79.0/libboost_system-variant-mgw8-mt-x32-1_79-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\boost\lib\cmake\boost_system-1.79.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitec/CLionProjects/practice/Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
