@@ -1,8 +1,0 @@
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/CMakeFiles/Client.dir
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/CMakeFiles/edit_cache.dir
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Client/CMakeFiles/rebuild_cache.dir
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Server/CMakeFiles/Server.dir
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Server/CMakeFiles/edit_cache.dir
-C:/Users/vitec/CLionProjects/practice/cmake-build-debug/Server/CMakeFiles/rebuild_cache.dir
