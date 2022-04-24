@@ -21,7 +21,7 @@ int main()
         socket->receive(boost :: asio :: buffer(file_name_size));
         char file_name[atoi(file_name_size)];
         socket->receive(boost :: asio :: buffer(file_name,atoi(file_name_size)));
-        std :: cout << "ID: " << i + 1 << " File info: "<< file_name << " " <<  strlen(file_name) << " " << atoi(file_name_size) << std :: endl;
+        std :: cout << "ID: " << i + 1 << " File info: "<< file_name << " " <<  strlen(file_name) << std :: endl;
     }
     std :: cout << "Enter the file id that you want to download\n";
     char choice[4];
